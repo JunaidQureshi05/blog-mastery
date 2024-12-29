@@ -5,6 +5,9 @@
       "use": "@vercel/static-build"
     }
   ],
+  "scripts": {
+    "vercel-build": "echo 'Building the project for Vercel' && cp -r ./ ./public"
+  },
   "routes": [{ "src": "/(.*)", "dest": "/index.html" }],
   "outputDirectory": "build"
 }
