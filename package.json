@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:build": "sass --no-source-map scss:dist/css",
-    "sass:watch": "sass --no-source-map --watch scss:dist/css",
-    "vercel-build": "sass --no-source-map scss:dist/css"
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css",
+    "vercel-build": "sass --no-source-map scss:css"
   },
   "author": "Junaid Qureshi",
   "license": "MIT",
